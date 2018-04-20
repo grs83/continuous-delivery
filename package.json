@@ -1,0 +1,31 @@
+{
+  "name": "continuous-delivery",
+  "version": "1.0.0",
+  "description": "A practice repository for testing and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon .",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grs83/continuous-delivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grs83/continuous-delivery/issues"
+  },
+  "homepage": "https://github.com/grs83/continuous-delivery#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0"
+  }
+}
